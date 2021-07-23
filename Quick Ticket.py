@@ -13,7 +13,8 @@ breezename = input()
 print('Description?')
 breezedescription = input()
 
-url = "http://api.breeze.pm/projects/124084/cards.json?api_token=NXzKkVGTBWkCAUB4KznA"
+#API token removed for security. 
+url = "http://api.breeze.pm/projects/124084/cards.json?api_token="
 
 payload ={"name": breezename,
     "description": breezedescription,
